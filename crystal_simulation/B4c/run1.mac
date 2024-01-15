@@ -1,0 +1,40 @@
+# Macro file for example B4
+# 
+# Can be run in batch, without graphic
+# or interactively: Idle> /control/execute run1.mac
+#
+# Change the default number of workers (in multi-threading mode) 
+#/run/numberOfThreads 4
+#
+# Initialize kernel
+#/run/initialize
+
+/analysis/ntuple/setFileName 0 elettroni_50.root
+/gun/particle e-
+/gun/energy 50 MeV
+/run/beamOn 250
+
+/analysis/ntuple/setFileName 0 elettroni_100.root
+/gun/particle e-
+/gun/energy 100 MeV
+/run/beamOn 250
+
+/analysis/ntuple/setFileName 0 elettroni_200.root
+/gun/particle e-
+/gun/energy 200 MeV
+/run/beamOn 250
+
+/analysis/ntuple/setFileName 0 elettroni_300.root
+/gun/particle e-
+/gun/energy 300 MeV
+/run/beamOn 250
+
+/analysis/ntuple/setFileName 0 elettroni_400.root
+/gun/particle e-
+/gun/energy 400 MeV
+/run/beamOn 250
+
+/analysis/ntuple/setFileName 0 elettroni_500.root
+/gun/particle e-
+/gun/energy 500 MeV
+/run/beamOn 250
